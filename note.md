@@ -1,18 +1,3 @@
-
----
-layout:     post
-title:      notes
-date:       2016-09-25
-summary:    notes
-categories: auxilary
-tags:
- - note
- - study
----
-
-### updating notes...
-
-```markdown
 1.没用过的在线扫描器:
     https://jawfish.io/
 	https://www.punkspider.org
