@@ -3408,5 +3408,8 @@ $_POST[b]="",是个空字符串,isset返回true
     1.设置里面设置不检查更新
     2.about:config将相关更新url改成一个不存在的地址
     上面2者都要进行
+
+312.查股票发行价格
+    http://data.eastmoney.com/xg/xg/detail/300750.html
 ```
 
