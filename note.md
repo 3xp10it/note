@@ -2854,6 +2854,7 @@ windows:
     安装51版本
     http://ftp.mozilla.org/pub/firefox/releases/51.0.1/mac/zh-CN/
     并安装最新版vimperator:https://addons.mozilla.org/en-US/firefox/addon/vimperator/
+    windows安装vimperator如果用了一段时间发现各种问题出现则可通过重新安装vimperator来解决
 
 291.代码阅读工具
     understand[https://www.macpeers.com/]
