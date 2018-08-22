@@ -3412,5 +3412,19 @@ $_POST[b]="",是个空字符串,isset返回true
 
 312.查股票发行价格
     http://data.eastmoney.com/xg/xg/detail/300750.html
+
+313.微信机器人
+    https://github.com/littlecodersh/itchat
+    https://www.jianshu.com/p/7aeadca0c9bd
+    https://cloud.tencent.com/info/fdacb0381ac296716da90959b6aa30db.html
+
+314.头痛治疗
+    多喝水(加姜),吃个苹果(带皮吃),热水澡,轻按压头痛部位,穿袜子,不要躺在床上看手机或眼睛睁开
+    https://zh.wikihow.com/治疗头痛(不用药物)
+
+315.快速将文件夹权限设置成everyone
+   icacls * /t  /grant Everyone:F
+
+
 ```
 
