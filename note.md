@@ -3413,6 +3413,7 @@ $_POST[b]="",是个空字符串,isset返回true
 312.查股票发行价格
     http://data.eastmoney.com/xg/xg/detail/300750.html
 
+<<<<<<< HEAD
 313.微信机器人
     https://github.com/littlecodersh/itchat
     https://www.jianshu.com/p/7aeadca0c9bd
@@ -3426,5 +3427,7 @@ $_POST[b]="",是个空字符串,isset返回true
    icacls * /t  /grant Everyone:F
 
 
+=======
+>>>>>>> 86cad56b83190903f6f86e7f7fb790d286742f24
 ```
 
