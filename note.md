@@ -3425,7 +3425,7 @@ $_POST[b]="",是个空字符串,isset返回true
 315.快速将文件夹权限设置成everyone
    icacls * /t  /grant Everyone:F
 
-316.chrome debug js:
+316.chrome调试js:
     https://www.jb51.net/article/58570.htm
 
 ```
