@@ -3427,5 +3427,11 @@ $_POST[b]="",是个空字符串,isset返回true
 
 316.chrome调试js:
     https://www.jb51.net/article/58570.htm
+
+317.禁止kali系统启动时/etc/resolve.conf被修改导致无法上网
+    https://askubuntu.com/questions/623940/network-manager-how-to-stop-nm-updating-etc-resolv-conf
+
+318.kali安装docker
+    https://www.ptrace-security.com/2017/06/14/hackontuesday-episode-7-how-to-install-docker-on-kali-linux-2017-1/
 ```
 
