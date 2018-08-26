@@ -3434,6 +3434,9 @@ $_POST[b]="",是个空字符串,isset返回true
 318.kali安装docker
     https://www.ptrace-security.com/2017/06/14/hackontuesday-episode-7-how-to-install-docker-on-kali-linux-2017-1/
 
-test
+319.keyboard和alfred提升效率
+    https://www.jianshu.com/p/105c7c017f23
+    http://www.cnblogs.com/ficow/p/5574882.html
+
 ```
 
