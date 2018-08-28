@@ -3438,5 +3438,8 @@ $_POST[b]="",是个空字符串,isset返回true
     https://www.jianshu.com/p/105c7c017f23
     http://www.cnblogs.com/ficow/p/5574882.html
 
+320.word里面插入高亮代码
+    http://www.planetb.ca/syntax-highlight-word
+
 ```
 
