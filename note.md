@@ -3443,6 +3443,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 321.xxe漏洞的测试 
     https://b1ngz.github.io/XXE-learning-note/
+    http://sh1yan.top/?p=119
     payload:
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE copyright [
@@ -3452,6 +3453,20 @@ $_POST[b]="",是个空字符串,isset返回true
     <login>&attack;</login>
     <secret>xxx</secret>
     </reset>
+
+322.webgoat坑
+    安装完成后要访问的是http://ip:port/WebGoat,要不然是404
+
+323.contrast工作原理
+    https://de.spectrami.com/contrast-sec
+    https://www.prnewswire.com/news-releases/first-of-its-kind-cyber-security-product-unifies-vulnerability-detection--attack-protection-300282492.html
+    https://pivotal.io/platform/services-marketplace/identity-and-security/contrast-security
+
+    注册:
+    https://www.contrastsecurity.com/community-edition-lp-website?hsCtaTracking=cefad257-dd24-43eb-b6e9-2dab469c810a%7C21a3b9ad-ab29-402d-8c91-23e97ce25726
+    登录:
+    https://ce.contrastsecurity.com/Contrast/static/ng/index.html#/pages/signin?unauthenticated=true
+
 
 ```
 
