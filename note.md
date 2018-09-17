@@ -3467,6 +3467,13 @@ $_POST[b]="",是个空字符串,isset返回true
     登录:
     https://ce.contrastsecurity.com/Contrast/static/ng/index.html#/pages/signin?unauthenticated=true
 
+324.websocket原理(如果将websocket通信做成木马呢?)
+    https://www.zhihu.com/question/20215561
+    https://www.cnblogs.com/jinjiangongzuoshi/p/5062092.html
+
+325.python数据库查询结果转成字典
+    https://blog.csdn.net/zhaihaifei/article/details/53898260
+
 
 ```
 
