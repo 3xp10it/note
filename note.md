@@ -3474,6 +3474,19 @@ $_POST[b]="",是个空字符串,isset返回true
 325.python数据库查询结果转成字典
     https://blog.csdn.net/zhaihaifei/article/details/53898260
 
+326.清除dns缓存
+    https://www.hostinger.com/tutorials/how-to-flush-dns#gref
+
+327.itchat
+    https://juejin.im/post/5b61b01f6fb9a04fba6e97ba
+
+328.kindle笔记导出
+    https://www.clippings.io/
+
+329.stl学习
+    http://www.cnblogs.com/zhili/p/STLIntroduce.html
+    https://www.cnblogs.com/BeyondAnyTime/archive/2012/08/08/2627666.html
+
 
 ```
 
