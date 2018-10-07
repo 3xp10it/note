@@ -3487,6 +3487,24 @@ $_POST[b]="",是个空字符串,isset返回true
     http://www.cnblogs.com/zhili/p/STLIntroduce.html
     https://www.cnblogs.com/BeyondAnyTime/archive/2012/08/08/2627666.html
 
+330.QT开发
+    https://blog.csdn.net/zgrjkflmkyc/article/details/8644226
+    https://www.bilibili.com/video/av9402477?from=search&seid=9150492468556083696
+    https://www.bilibili.com/video/av10357292?from=search&seid=9150492468556083696
+
+331.c++命名规范
+    https://blog.csdn.net/u014294166/article/details/52772133
+
+332.chrome好用的网页视频嗅探插件:Video DownloadHelper,使用vpn(hk)连接+合作应用下载方式来下载可绕过2小时才可下载的限制 
+
+333.迅雷资源下载不了或出错或版权限制的解决办法
+    使用迅雷5.8下载:http://tcy.mqego.com/xunkeifhb5xz.zip
+
+334.win7安装visual studio 2015
+    http://www.cnblogs.com/sthinker/p/5905611.html
+    企业版:http://download.microsoft.com/download/B/8/F/B8F1470D-2396-4E7A-83F5-AC09154EB925/vs2015.ent_chs.iso
+    百度云盘:http://pan.baidu.com/s/1qWl4L1i
+    激活密钥:HM6NR-QXX7C-DFW2Y-8B82K-WTYJV
 
 ```
 
