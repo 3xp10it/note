@@ -3505,5 +3505,9 @@ $_POST[b]="",是个空字符串,isset返回true
     企业版:http://download.microsoft.com/download/B/8/F/B8F1470D-2396-4E7A-83F5-AC09154EB925/vs2015.ent_chs.iso
     百度云盘:http://pan.baidu.com/s/1qWl4L1i
     激活密钥:HM6NR-QXX7C-DFW2Y-8B82K-WTYJV
+
+335.真实换手换手率算法
+    真实换手率=软件显示换手率*1/(1-流通大股东占比)
+    http://blog.sina.com.cn/s/blog_74d237650102xlaa.html
 ```
 
