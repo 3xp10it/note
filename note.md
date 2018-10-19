@@ -2696,6 +2696,11 @@ windows:
     新在安装了tampermonkey的情况下用chrome的手机模式下载以获得下载链接,这个链接是不带用户信息的(因为退出了登录),
     这时再用迅雷下载就不会限速了.
 
+    update:
+    百度网盘加速下载
+    https://zhuanlan.zhihu.com/p/33704392
+
+
 259.macOS下的好用的虚拟机
     paralles desktop
 
@@ -3509,5 +3514,9 @@ $_POST[b]="",是个空字符串,isset返回true
 335.真实换手换手率算法
     真实换手率=软件显示换手率*1/(1-流通大股东占比)
     http://blog.sina.com.cn/s/blog_74d237650102xlaa.html
+
+336.1password用法
+    https://sspai.com/post/35195#html-top
+
 ```
 
