@@ -3517,6 +3517,13 @@ $_POST[b]="",是个空字符串,isset返回true
 
 336.1password用法
     https://sspai.com/post/35195#html-top
-    test
+
+337.burpsuite
+    burpsuite中用于无回显类型漏洞手动测试的用法(collaborator-client)
+    https://support.portswigger.net/customer/portal/articles/2945928-using-burp-collaborator-client
+
+338.参数化查询的作用范围
+    LIMIT,TOP,TABLESAMPLE,HAVING,GROUP BY,ORDER BY,OUTPUT...INTO或FOR XML从句不会被参数化.
+    https://www.bbsmax.com/A/LPdowWEd3a/
 ```
 
