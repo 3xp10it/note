@@ -3525,5 +3525,6 @@ $_POST[b]="",是个空字符串,isset返回true
 338.参数化查询的作用范围
     LIMIT,TOP,TABLESAMPLE,HAVING,GROUP BY,ORDER BY,OUTPUT...INTO或FOR XML从句不会被参数化.
     https://www.bbsmax.com/A/LPdowWEd3a/
+    test
 ```
 
