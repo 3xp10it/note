@@ -3525,6 +3525,9 @@ $_POST[b]="",是个空字符串,isset返回true
 338.参数化查询的作用范围
     LIMIT,TOP,TABLESAMPLE,HAVING,GROUP BY,ORDER BY,OUTPUT...INTO或FOR XML从句不会被参数化.
     https://www.bbsmax.com/A/LPdowWEd3a/
-    test
+
+339.python列表条件生成
+    [i for i in range(k) if condition]:此时if起条件判断作用,满足条件的,将被返回成为最终生成的列表的一员.
+    [i if condition else exp for exp]:此时if...else被用来赋值,满足条件的i以及else被用来生成最终的列表.
 ```
 
