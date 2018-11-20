@@ -3529,5 +3529,8 @@ $_POST[b]="",是个空字符串,isset返回true
 339.python列表条件生成
     [i for i in range(k) if condition]:此时if起条件判断作用,满足条件的,将被返回成为最终生成的列表的一员.
     [i if condition else exp for exp]:此时if...else被用来赋值,满足条件的i以及else被用来生成最终的列表.
+
+340.nginx导致的ssrf等漏洞
+    https://bbs.ichunqiu.com/thread-41928-1-1.html
 ```
 
