@@ -3532,6 +3532,10 @@ $_POST[b]="",是个空字符串,isset返回true
 
 340.nginx导致的ssrf等漏洞
     https://bbs.ichunqiu.com/thread-41928-1-1.html
-```
-341.
 
+341.html支持pdf功能
+    https://github.com/mozilla/pdf.js/wiki/Setup-pdf.js-in-a-website
+    pdf的url支持其他域方法
+    https://github.com/mozilla/pdf.js/issues/7153
+
+```
