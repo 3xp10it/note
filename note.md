@@ -3537,5 +3537,6 @@ $_POST[b]="",是个空字符串,isset返回true
     https://github.com/mozilla/pdf.js/wiki/Setup-pdf.js-in-a-website
     pdf的url支持其他域方法
     https://github.com/mozilla/pdf.js/issues/7153
+    https://blog.csdn.net/xinlingdexueba/article/details/79555678
 
 ```
