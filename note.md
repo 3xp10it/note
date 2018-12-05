@@ -3539,4 +3539,10 @@ $_POST[b]="",是个空字符串,isset返回true
     https://github.com/mozilla/pdf.js/issues/7153
     https://blog.csdn.net/xinlingdexueba/article/details/79555678
 
+342.teamviewer
+    TeamViewer14链接： 链接：https://pan.baidu.com/s/102w9msTkvG2RbACc9SoFMA 
+    提取码：n1rn 
+    TeamViewer13+12安装版链接：https://pan.baidu.com/s/1Uk6bc8Zdhlh1-BiW16uEaw 
+    提取码：vk60
+
 ```
