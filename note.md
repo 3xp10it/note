@@ -3541,6 +3541,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 342.teamviewer
     TeamViewer14链接: 链接:https://pan.baidu.com/s/102w9msTkvG2RbACc9SoFMA 
+    
     提取码:n1rn 
     TeamViewer13+12安装版链接:https://pan.baidu.com/s/1Uk6bc8Zdhlh1-BiW16uEaw 
     提取码:vk60
@@ -3553,5 +3554,12 @@ $_POST[b]="",是个空字符串,isset返回true
     https://zhuanlan.zhihu.com/p/26125618
     https://hk.saowen.com/a/741c4c948898db574fb8aa22f74dae5829d52bbb1c870828f9d72d9f5c77bfb8
     注意:要保证/etc/yum.repos.d目录下只有一个配置文件
+
+345.centos7安装readline
+    https://blog.csdn.net/jacson_bai/article/details/50766496
+
+346.jsonp用法
+    https://www.cnblogs.com/chiangchou/p/jsonp.html
+    https://blog.csdn.net/andyzhaojianhui/article/details/49870495
 
 ```
