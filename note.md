@@ -3562,4 +3562,25 @@ $_POST[b]="",是个空字符串,isset返回true
     https://www.cnblogs.com/chiangchou/p/jsonp.html
     https://blog.csdn.net/andyzhaojianhui/article/details/49870495
 
+347.javascript等待直到元素出现 
+    https://stackoverflow.com/questions/16149431/make-function-wait-until-element-exists
+
+348.Mojave下Tweak.xm编译失败,参考这里https://github.com/theos/theos/issues/346
+    TWEAK_NAME = FOOOOOO
+    FOOOOOO_FILES = Tweak.xm
+    FOOOOOO_CFLAGS = -std=c++11 -stdlib=libc++
+    FOOOOOO_LDFLAGS = -stdlib=libc++'
+
+    其他make时报错如CDUnknownBlockType,可参考这里http://www.linyibin.cn/2016/10/21/ios-Security-Theos/
+
+349.ios逆向实时查看手机日志
+    https://blog.csdn.net/u010545480/article/details/73662500
+
+350.macOS安装talib需要先brew install ta-lib成功后再pip3 install TA-Lib
+
+351.macOS中python3报Crypto的bug，解决方法:
+    pip3 uninstall pycrypto && pip3 uninstall pycryptodome && pip3 install pycryptodome && pip3 install pycrypto
+
+
+
 ```
