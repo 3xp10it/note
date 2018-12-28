@@ -3561,6 +3561,10 @@ $_POST[b]="",是个空字符串,isset返回true
 346.jsonp用法
     https://www.cnblogs.com/chiangchou/p/jsonp.html
     https://blog.csdn.net/andyzhaojianhui/article/details/49870495
+    https://blog.csdn.net/yjclsx/article/details/80353754
+    JSONP 安全攻防技术
+    http://blog.knownsec.com/2015/03/jsonp_security_technic/
+
 
 347.javascript等待直到元素出现 
     https://stackoverflow.com/questions/16149431/make-function-wait-until-element-exists
@@ -3578,7 +3582,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 350.macOS安装talib需要先brew install ta-lib成功后再pip3 install TA-Lib
 
-351.macOS中python3报Crypto的bug，解决方法:
+351.macOS中python3报Crypto的bug,解决方法:
     pip3 uninstall pycrypto && pip3 uninstall pycryptodome && pip3 install pycryptodome && pip3 install pycrypto
 
 
