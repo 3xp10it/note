@@ -3585,6 +3585,16 @@ $_POST[b]="",是个空字符串,isset返回true
 351.macOS中python3报Crypto的bug,解决方法:
     pip3 uninstall pycrypto && pip3 uninstall pycryptodome && pip3 install pycryptodome && pip3 install pycrypto
 
+352.chrome允许audio自动播放
+    chrome://flags/#autoplay-policy 并设置no user gesture is required
 
+353.简单的多线程python版webserver
+    https://pymotwcn.readthedocs.io/en/latest/documents/BaseHTTPServer.html
+
+354.msiexec卸载程序
+    https://stackoverflow.com/questions/21491631/how-to-uninstall-with-msiexec-using-product-id-guid-without-msi-file-present/21502621
+
+355.在线制作统计图
+    http://charts.udpwork.com/
 
 ```
