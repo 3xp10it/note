@@ -3597,4 +3597,7 @@ $_POST[b]="",是个空字符串,isset返回true
 355.在线制作统计图
     http://charts.udpwork.com/
 
+356.在线证件照制作
+    https://www.yasuotu.com/coloreplace
+
 ```
