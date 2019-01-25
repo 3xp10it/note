@@ -3600,4 +3600,7 @@ $_POST[b]="",是个空字符串,isset返回true
 356.在线证件照制作
     https://www.yasuotu.com/coloreplace
 
+357.matplotlib设置图像显示长度
+    https://www.zhihu.com/question/37221233
+
 ```
