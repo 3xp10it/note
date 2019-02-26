@@ -2700,6 +2700,13 @@ windows:
     百度网盘加速下载
     https://zhuanlan.zhihu.com/p/33704392
 
+    update(works):
+    百度网盘限速下载绕过方法
+    先用油猴脚本获取下载地址,然后通过axel/aria2c url --header="Cookie: xxx"下载
+
+    更好的方法(works):
+    https://github.com/cool2528/baiduCDP/releases
+
 
 259.macOS下的好用的虚拟机
     paralles desktop
@@ -3541,7 +3548,6 @@ $_POST[b]="",是个空字符串,isset返回true
 
 342.teamviewer
     TeamViewer14链接: 链接:https://pan.baidu.com/s/102w9msTkvG2RbACc9SoFMA 
-    
     提取码:n1rn 
     TeamViewer13+12安装版链接:https://pan.baidu.com/s/1Uk6bc8Zdhlh1-BiW16uEaw 
     提取码:vk60
@@ -3602,5 +3608,27 @@ $_POST[b]="",是个空字符串,isset返回true
 
 357.matplotlib设置图像显示长度
     https://www.zhihu.com/question/37221233
+
+358.理解缠论
+    https://www.youtube.com/watch?v=uIOcgd9a_gY
+    http://list.youku.com/albumlist/show/id_27522686.html
+    https://www.iqiyi.com/adv/v_19rqz4wn6o.html
+    甜快快
+        https://pan.baidu.com/s/1fgEmcoxIN2qKxDykDMBWKA
+    https://www.bilibili.com/video/av27602623/
+    全套视频
+        https://pan.baidu.com/s/1zZI0fUQe9PZ-ChhswTnWWA  密码:j94f
+        https://pan.baidu.com/s/1luggdxifiUqRqP0zMMIQEA  密码:bejo
+    缠论通达信指标
+        第1种:价值超过100块 https://pan.baidu.com/s/17t5rmPOpcczABI-eb5NtqQ 提取码: irvq 
+        第2种:价值100块 https://pan.baidu.com/s/1OuJo1spCyD4z_FSsBuT4IA 用法:下载好试用文件后,先解压文件夹,然后打开这里面的通达信程序就直接可以用了输入XZSLX 或者 XFBFD就可以看到画图功能-选股-综合选股-条件选股-其他,就可以看到选股
+    北斗解缠
+        http://i.youku.com/i/UNDc2NDk1ODQyOA==?spm=a2h0j.11185381.module_basic_dayu_sub.DL~DD~H2~A  初级课程第10课密码pk1717
+
+359.ios中命令行打开app
+    https://stackoverflow.com/questions/8759042/launch-gui-app-on-ios-5-through-the-command-line-jailbreak
+
+360.python设置函数超时时间
+    https://zhuanlan.zhihu.com/p/39743129
 
 ```
