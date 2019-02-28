@@ -3624,6 +3624,8 @@ $_POST[b]="",是个空字符串,isset返回true
         第2种:价值100块 https://pan.baidu.com/s/1OuJo1spCyD4z_FSsBuT4IA 用法:下载好试用文件后,先解压文件夹,然后打开这里面的通达信程序就直接可以用了输入XZSLX 或者 XFBFD就可以看到画图功能-选股-综合选股-条件选股-其他,就可以看到选股
     北斗解缠
         http://i.youku.com/i/UNDc2NDk1ODQyOA==?spm=a2h0j.11185381.module_basic_dayu_sub.DL~DD~H2~A  初级课程第10课密码pk1717
+    缠中说禅的资源汇总
+        https://www.zhihu.com/question/26049451
 
 359.ios中命令行打开app
     https://stackoverflow.com/questions/8759042/launch-gui-app-on-ios-5-through-the-command-line-jailbreak
