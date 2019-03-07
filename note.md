@@ -3633,4 +3633,16 @@ $_POST[b]="",是个空字符串,isset返回true
 360.python设置函数超时时间
     https://zhuanlan.zhihu.com/p/39743129
 
+361.在线ocr识别
+    http://ocr.wdku.net/
+
+362.python3使用ldap3
+    https://zhuanlan.zhihu.com/p/52621936
+    https://blog.51cto.com/9429042/2134115
+    https://blog.laisky.com/p/ldap/
+    https://ldap3.readthedocs.io/searches.html
+
+363.pip install ssl error解决方法
+    pip3 install --index-url=http://pypi.python.org/project/ --trusted-host pypi.python.org <package name>
+
 ```
