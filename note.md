@@ -3645,4 +3645,5 @@ $_POST[b]="",是个空字符串,isset返回true
 363.pip install ssl error解决方法
     pip3 install --index-url=http://pypi.python.org/project/ --trusted-host pypi.python.org <package name>
 
+364.利用筹码分布做空美股可通过天狼50软件个股中搜索"纳指ETF"
 ```
