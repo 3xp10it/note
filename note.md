@@ -3646,4 +3646,13 @@ $_POST[b]="",是个空字符串,isset返回true
     pip3 install --index-url=http://pypi.python.org/project/ --trusted-host pypi.python.org <package name>
 
 364.利用筹码分布做空美股可通过天狼50软件个股中搜索"纳指ETF"
-```
+
+365.ios streaming vedio player
+    http://www.inmethod.com/airvideohd
+
+366.跟庄从入门到精通
+    http://www.net767.com/book/genzhuang123/List_1.html
+
+367.试盘
+    https://zhuanlan.zhihu.com/p/43468194
+``
