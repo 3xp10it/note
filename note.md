@@ -3655,4 +3655,10 @@ $_POST[b]="",是个空字符串,isset返回true
 
 367.试盘
     https://zhuanlan.zhihu.com/p/43468194
+    http://news.sina.com.cn/o/2017-11-29/doc-ifyphtze2439793.shtml
+    http://blog.sina.com.cn/s/blog_557f024c0102wetc.html
+    https://3g.163.com/dy/article/CSO8HJLP0517ERMA.html
+    https://cj.sina.com.cn/article/detail/5856868449/544366
+    http://finance.ifeng.com/a/20160502/14358539_0.shtml
+    https://www.jianshu.com/p/0a9e40719681
 ``
