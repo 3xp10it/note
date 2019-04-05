@@ -3661,4 +3661,8 @@ $_POST[b]="",是个空字符串,isset返回true
     https://cj.sina.com.cn/article/detail/5856868449/544366
     http://finance.ifeng.com/a/20160502/14358539_0.shtml
     https://www.jianshu.com/p/0a9e40719681
+
+368.天狼50至尊版首页
+    http://sy.soft.tl50.com/#
+
 ``
