@@ -3381,6 +3381,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
     策略:
         http://www.cnblogs.com/fangbei/p/wequant-strategy-kdj.html
+
 300.python3安装talib
     https://github.com/mrjbq7/ta-lib/issues/137
 
@@ -3665,4 +3666,9 @@ $_POST[b]="",是个空字符串,isset返回true
 368.天狼50至尊版首页
     http://sy.soft.tl50.com/#
 
+369.mysql允许远程连接
+    https://blog.csdn.net/qq_31362767/article/details/81813630
+
+370.人体工学椅
+    https://post.smzdm.com/p/ax08g3o4/
 ``
