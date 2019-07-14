@@ -3666,10 +3666,16 @@ $_POST[b]="",是个空字符串,isset返回true
 
 368.天狼50至尊版首页
     http://sy.soft.tl50.com/#
+    用户手册
+    https://www.tl50.com/res/file/zhizun.pdf
 
 369.mysql允许远程连接
     https://blog.csdn.net/qq_31362767/article/details/81813630
 
 370.人体工学椅
     https://post.smzdm.com/p/ax08g3o4/
-``
+
+371.wps excel中1个横坐标2个纵坐标图表绘制的bug
+    一般2个纵坐标的数据有一个会显示异常,这列显示异常的纵坐标数据一般是表格中的格式不对,一般是左上角有个绿色的标志,需要去除这个绿色的标志使这列异常显示的纵坐标数据正常显示
+
+```
