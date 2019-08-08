@@ -3041,6 +3041,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 243.cydia下载官网
     http://apt.saurik.com/debs/
+    ios访问https://m.pangu8.com/cydia/
     cydia卸载方法:
         rm -r /Applications/Cydia.app
         rm -r /var/lib/cydia
@@ -3678,4 +3679,18 @@ $_POST[b]="",是个空字符串,isset返回true
 371.wps excel中1个横坐标2个纵坐标图表绘制的bug
     一般2个纵坐标的数据有一个会显示异常,这列显示异常的纵坐标数据一般是表格中的格式不对,一般是左上角有个绿色的标志,需要去除这个绿色的标志使这列异常显示的纵坐标数据正常显示
 
+372.sqlmap通过帐号密码开shell
+    sqlmap.py -d "mysql://root:123456@192.168.1.3:3306/mysql" --os-shell
+
+373.缠论的精髓
+    https://www.zhihu.com/question/29134725
+
+374.cydia crawler
+    http://www.cydiacrawler.com/
+
+375.cydia无法联网解决方法
+    https://www.cnblogs.com/chenminklutz/p/10424586.html
+
+376.ios11.1.1非完美越狱后无法使用flex3正常hook解决办法
+    手机恢复出厂设备并重新越狱并重新安装flex3
 ```
