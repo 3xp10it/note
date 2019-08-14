@@ -3693,4 +3693,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 376.ios11.1.1非完美越狱后无法使用flex3正常hook解决办法
     手机恢复出厂设备并重新越狱并重新安装flex3
+
+377.签名算法防重放
+    https://blog.csdn.net/koastal/article/details/53456696
 ```
