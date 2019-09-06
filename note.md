@@ -3699,4 +3699,14 @@ $_POST[b]="",是个空字符串,isset返回true
 
 378.system权限开注册表
     PsExec -i -s -d regedt32.exe
+
+379.ajax同步请求
+    https://stackoverflow.com/questions/6685249/jquery-performing-synchronous-ajax-requests
+    https://stackoverflow.com/questions/45451206/handling-ajax-synchronous
+    https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call
+
+380.辣椒辣到手处理方法
+    用温水(尽量热而不烫手的程序)冲,加肥皂洗;
+    不行再用口水;
+    不行再用牛奶;
 ```
