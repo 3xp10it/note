@@ -3712,4 +3712,9 @@ $_POST[b]="",是个空字符串,isset返回true
 
 381.在线表情制作
     https://fabiaoqing.com/diy/
+
+382.同花顺超级盘口防骚扰方法:打开超级盘口后点击左上角的[系统],再点断开连接
+
+383.xshell6破解
+    https://www.maxlicheng.com/embedded/558.html
 ```
