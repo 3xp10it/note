@@ -3552,6 +3552,8 @@ $_POST[b]="",是个空字符串,isset返回true
 342.teamviewer
     TeamViewer14链接: 链接:https://pan.baidu.com/s/102w9msTkvG2RbACc9SoFMA 
     提取码:n1rn 
+    TeamViewer14:
+    https://pan.baidu.com/s/1jHjqjdq_qPKUoadVdDT3KQ 提取码:2las
     TeamViewer13+12安装版链接:https://pan.baidu.com/s/1Uk6bc8Zdhlh1-BiW16uEaw 
     提取码:vk60
 
@@ -3720,4 +3722,16 @@ $_POST[b]="",是个空字符串,isset返回true
 
 384.html中图片点击放大插件
     https://www.cnblogs.com/mingc/p/7446492.html
+
+385.chrome中https证书提示一次性去除
+    https://blog.csdn.net/orchidofocean/article/details/79541213
+    https://www.zhihu.com/question/50727983
+    https://www.technipages.com/google-chrome-bypass-your-connection-is-not-private-message
+
+386.shortcat用法
+    https://sspai.com/post/32524
+
+387.macOS全键盘操作
+    https://yiming.dev/blog/2015/12/19/how-to-use-os-x-with-keyboard-only/
+    https://www.zhihu.com/question/27158546
 ```
