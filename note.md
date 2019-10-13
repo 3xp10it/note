@@ -3734,4 +3734,7 @@ $_POST[b]="",是个空字符串,isset返回true
 387.macOS全键盘操作
     https://yiming.dev/blog/2015/12/19/how-to-use-os-x-with-keyboard-only/
     https://www.zhihu.com/question/27158546
+
+388.市值管理类股票
+    http://stock.jrj.com.cn/2017/09/24070023159964.shtml
 ```
