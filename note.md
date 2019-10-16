@@ -3737,4 +3737,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 388.市值管理类股票
     http://stock.jrj.com.cn/2017/09/24070023159964.shtml
+
+389.脉冲式放量
+    http://www.yingjia360.com/cjl/2018-09-14/45195.html
 ```
