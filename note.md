@@ -3740,4 +3740,9 @@ $_POST[b]="",是个空字符串,isset返回true
 
 389.脉冲式放量
     http://www.yingjia360.com/cjl/2018-09-14/45195.html
+
+390.http请求头与压缩传输
+    https://imququ.com/post/vary-header-in-http.html
+    https://www.cnblogs.com/GreenLeaves/p/6970605.html
+
 ```
