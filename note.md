@@ -3514,6 +3514,9 @@ $_POST[b]="",是个空字符串,isset返回true
 
 333.迅雷资源下载不了或出错或版权限制的解决办法
     使用迅雷5.8下载:http://tcy.mqego.com/xunkeifhb5xz.zip
+    迅雷5.8无法下载磁力链接时(显示url不合法)解决方法:磁力转种子,然后使用迅雷5.8的打开种子文件下载
+        磁力转种子:
+        http://tools.jb51.net/aideddesign/bt2mag
 
 334.win7安装visual studio 2015
     http://www.cnblogs.com/sthinker/p/5905611.html
@@ -3745,4 +3748,6 @@ $_POST[b]="",是个空字符串,isset返回true
     https://imququ.com/post/vary-header-in-http.html
     https://www.cnblogs.com/GreenLeaves/p/6970605.html
 
+391.ios11.1.1越狱
+    https://www.abcydia.com/read-15355.html/comment-page-2
 ```
