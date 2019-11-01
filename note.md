@@ -3553,12 +3553,9 @@ $_POST[b]="",是个空字符串,isset返回true
     https://blog.csdn.net/xinlingdexueba/article/details/79555678
 
 342.teamviewer
-    TeamViewer14链接: 链接:https://pan.baidu.com/s/102w9msTkvG2RbACc9SoFMA 
-    提取码:n1rn 
-    TeamViewer14:
-    https://pan.baidu.com/s/1jHjqjdq_qPKUoadVdDT3KQ 提取码:2las
-    TeamViewer13+12安装版链接:https://pan.baidu.com/s/1Uk6bc8Zdhlh1-BiW16uEaw 
-    提取码:vk60
+    TeamViewer14链接: 链接:https://pan.baidu.com/s/102w9msTkvG2RbACc9SoFMA 提取码:n1rn 
+    TeamViewer14:链接:https://pan.baidu.com/s/1MRWJjOLpVK4mcYzJCP0PSw 提取码:leag 
+    TeamViewer13+12安装版链接:https://pan.baidu.com/s/1Uk6bc8Zdhlh1-BiW16uEaw 提取码:vk60
 
 343.chrome审查元素中的copy selector和copy xpath结合jquery定位元素的方法
     a)copy selector得到的结果通过$(result)来定位元素
@@ -3750,4 +3747,11 @@ $_POST[b]="",是个空字符串,isset返回true
 
 391.ios11.1.1越狱
     https://www.abcydia.com/read-15355.html/comment-page-2
+
+392.nginx理解
+    https://blog.wangqi.love/articles/nginx/nginx%E6%95%B4%E7%90%86.html
+    https://blog.csdn.net/netdxy/article/details/51195560
+    nginx配置不当导致ssrf
+    https://xz.aliyun.com/t/4855
+    https://github.com/yandex/gixy/blob/master/docs/en/plugins/ssrf.md
 ```
