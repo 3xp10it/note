@@ -3754,4 +3754,10 @@ $_POST[b]="",是个空字符串,isset返回true
     nginx配置不当导致ssrf
     https://xz.aliyun.com/t/4855
     https://github.com/yandex/gixy/blob/master/docs/en/plugins/ssrf.md
+
+393.闻少盘口
+    https://pan.baidu.com/s/1A3SwDk35qRoAEhJmJdFFHg 提取码: q2pw 
+
+394.淘股吧合集
+    https://pan.baidu.com/s/1MswtrV0khntuwUA8ZDJvKg 提取码:34r7
 ```
