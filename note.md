@@ -3554,7 +3554,6 @@ $_POST[b]="",是个空字符串,isset返回true
 
 342.teamviewer
     TeamViewer14链接: 链接:https://pan.baidu.com/s/102w9msTkvG2RbACc9SoFMA 提取码:n1rn 
-    TeamViewer14:链接:https://pan.baidu.com/s/1MRWJjOLpVK4mcYzJCP0PSw 提取码:leag 
     TeamViewer13+12安装版链接:https://pan.baidu.com/s/1Uk6bc8Zdhlh1-BiW16uEaw 提取码:vk60
 
 343.chrome审查元素中的copy selector和copy xpath结合jquery定位元素的方法
