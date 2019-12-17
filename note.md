@@ -3759,4 +3759,9 @@ $_POST[b]="",是个空字符串,isset返回true
 
 394.淘股吧合集
     https://pan.baidu.com/s/1MswtrV0khntuwUA8ZDJvKg 提取码:34r7
+
+395.同花顺公式管理有个坑,在设置指数公式时,如果变量的值过小,需要注意在风格设置里面设置正确的变量类型,否则会一直显示为0
+
+396.同花顺在主图和分时图显示概念
+    https://www.gpzixun8.com/jzb/2487.html
 ```
