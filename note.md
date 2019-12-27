@@ -3764,4 +3764,17 @@ $_POST[b]="",是个空字符串,isset返回true
 
 396.同花顺在主图和分时图显示概念
     https://www.gpzixun8.com/jzb/2487.html
+
+397.mysql忘记密码修改密码的方法
+    https://blog.csdn.net/yelllowcong/article/details/79641313
+
+398.查看mysql默认密码的方法
+    cat /var/log/mysqld.log | grep password
+
+399.redhat安装mysql
+    https://www.jianshu.com/p/276d59cbc529
+
+400.redhat安装vim8
+    https://rorschachchan.github.io/2018/03/14/%E5%AE%89%E8%A3%85vim8-0%E7%9A%84%E8%BF%87%E7%A8%8B/
+    https://www.cnblogs.com/ningskyer/articles/10985495.html
 ```
