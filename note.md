@@ -3257,6 +3257,10 @@ $_POST[b]="",是个空字符串,isset返回true
             https://bbs.feng.com/read-htm-tid-11039652.html
                 需要关闭手机的二次验证,否则会出错,不关闭的解决办法在这里
                     https://sspai.com/post/38758
+        或者用AltDeploy
+            https://www.xiongjunhan.com/archives/4149
+        或者用AltStore
+            https://github.com/rileytestut/AltStore/releases
         或者用iOS APP Signer
             https://www.wxz.name/2017/05/28/ios-resign/
             http://www.hangge.com/blog/cache/detail_1219.html
@@ -3554,6 +3558,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 342.teamviewer
     TeamViewer14链接: 链接:https://pan.baidu.com/s/102w9msTkvG2RbACc9SoFMA 提取码:n1rn 
+    tv14(my): https://pan.baidu.com/s/1Ruxm5oUE6DlacrRl4ddbyw 提取码: hui6
     TeamViewer13+12安装版链接:https://pan.baidu.com/s/1Uk6bc8Zdhlh1-BiW16uEaw 提取码:vk60
 
 343.chrome审查元素中的copy selector和copy xpath结合jquery定位元素的方法
@@ -3758,7 +3763,7 @@ $_POST[b]="",是个空字符串,isset返回true
     https://pan.baidu.com/s/1A3SwDk35qRoAEhJmJdFFHg 提取码: q2pw 
 
 394.淘股吧合集
-    https://pan.baidu.com/s/1MswtrV0khntuwUA8ZDJvKg 提取码:34r7
+    https://pan.baidu.com/s/1F-z_duYJgH7R7ez3eVPcVA  提取码:61g0 
 
 395.同花顺公式管理有个坑,在设置指数公式时,如果变量的值过小,需要注意在风格设置里面设置正确的变量类型,否则会一直显示为0
 
@@ -3777,4 +3782,82 @@ $_POST[b]="",是个空字符串,isset返回true
 400.redhat安装vim8
     https://rorschachchan.github.io/2018/03/14/%E5%AE%89%E8%A3%85vim8-0%E7%9A%84%E8%BF%87%E7%A8%8B/
     https://www.cnblogs.com/ningskyer/articles/10985495.html
+
+401.xshell破解
+    https://www.cnblogs.com/soymilk2019/p/11769840.html
+
+402.linux端口转发工具
+
+    yum install socat
+    当监听来自外部5555端口流量时自动把他转发到目标内网192.168.1.1的3389端口上.
+    socat TCP4-LISTEN:5555,reuseaddr,fork TCP4:192.168.1.1:3389
+
+403.同花顺数据错乱解决方法
+    1)数据维护:将除日线复盘数据以外的所有本地数据全部删除
+    2)卸载同花顺
+    3)手动删除对应安装的文件夹
+    4)重新安装同花顺
+    5)使用游客登录,并查看1A0001
+    7)正常使用帐号登录
+    其他:如果发现与某个指数有关的指标显示不正常,可手动访问这个指数再回到个股看看是不是恢复了.如399006(创业板指)经常出问题.
+
+404.macOS查看ios的所有应用的bundleid
+    ios-deploy --id [udid] --list_bundle_id
+
+405.appium自动化测试ios
+    https://gysxl.github.io/2018/05/02/%E4%BD%BF%E7%94%A8appium%E8%BF%9B%E8%A1%8CiOS%E7%9C%9F%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B9%8B%E7%8E%AF%E5%A2%83%E5%85%A5%E9%97%A8/
+
+406.ios11越狱后脱壳
+    http://www.gandalf.site/2019/05/ios-bfinject-ios11cycript.html
+    http://www.gandalf.site/2019/05/iosapp.html
+    http://www.gandalf.site/2019/05/ios-killed-9.html
+
+407.微信公众号爬虫
+    https://github.com/DropsDevopsOrg/ECommerceCrawlers/wiki/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E5%8F%96%E7%A0%94%E7%A9%B6
+    https://www.youtube.com/watch?v=3td_uRs6_3k
+    https://github.com/wonderfulsuccess/weixin_crawler
+    实时获取推送:
+    https://github.com/lb2281075105/Python-WeChat-ItChat/blob/master/03%20itchat%E7%9B%91%E5%90%AC%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%8F%91%E9%80%81%E7%9A%84%E6%96%87%E7%AB%A0/PythonItChat.py
+    订阅号接口法:
+    https://blog.csdn.net/wnma3mz/article/details/78570580
+    客户端接口:
+    http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzU5ODE1OTcyNQ==#wechat_webview_type=1&wechat_redirect
+
+408.分析js中的url签名
+    https://blog.csdn.net/freeking101/article/details/97948179
+    https://blog.csdn.net/qq_38534107/article/details/90440403
+    https://www.jianshu.com/p/0fb8a5daf617?from=timeline&isappinstalled=0PRO-003
+    https://forum.90sec.com/t/topic/173
+    http://absec.cn/?p=800
+
+409.爬虫常见的坑
+    websocket请求
+    waf(cookie)
+    sign参数
+    connection: keep alive?  
+        https://blog.csdn.net/a1007720052/article/details/83383220
+        https://blog.csdn.net/lb245557472/article/details/80239603
+    内存管理
+        https://www.jianshu.com/p/acb6a1b95fcb
+
+410.不同语言的sha1在遇到中文(utf8)时的结果不一样的坑
+    https://www.oschina.net/question/265002_166218
+    https://blog.csdn.net/hbh112233abc/article/details/80447341
+    这里有js版本的sha1
+        http://www.hao828.com/yingyong/sha1/
+        http://www.3464.com/tools/sha1/
+    据上面的文章据说,javascript在处理中文时用的是utf16,实际我在python3中使用utf16编码后再digest()还是不行,为实现js版的sha1,可使用python执行js来实现
+
+411.js全局弹窗
+    https://attacomsian.com/blog/desktop-notifications-javascript#
+    https://stackoverflow.com/questions/2271156/chrome-desktop-notification-example
+
+412.ajax发post请求时如果是请求jsonp数据,由于jsonp不支持POST跨域,会自动转成GET,可以改成cors请求
+    https://blog.csdn.net/llhhyy1989/article/details/32706277
+    https://segmentfault.com/a/1190000012469713
+    http://www.01happy.com/two-ways-of-cross-domain-request/
+    https://blog.csdn.net/yuebinghaoyuan/article/details/32723753
+
+413.营收、净营收、净收入、净利润的区别
+    https://www.zhihu.com/question/24043083
 ```
