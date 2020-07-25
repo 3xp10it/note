@@ -3860,4 +3860,45 @@ $_POST[b]="",是个空字符串,isset返回true
 
 413.营收、净营收、净收入、净利润的区别
     https://www.zhihu.com/question/24043083
+
+414.全文索引
+    https://www.jianshu.com/p/c48106149b6a
+    https://blog.csdn.net/NTSDB/article/details/81124332
+    https://blog.csdn.net/Try_harder_every_day/article/details/83088457
+    https://www.ruanyifeng.com/blog/2017/08/elasticsearch.html
+    https://zhuanlan.zhihu.com/p/75865880
+    
+    索引用法与优化
+    https://www.cnblogs.com/duanxz/p/5244703.html
+    https://zhuanlan.zhihu.com/p/61687047
+
+415.macOS很卡,查看进程lsd占用了很大的cpu,解决办法
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain system -domain user ; killall Dock
+    然后重启
+
+416.macOS卡死(kernel_task或其他进程的cputime占用过高)解决方法:
+    1)保持室内空调温度到最底且风最大,macOS关机10分钟(kernel_task占用cpu是温度过高原因造成)
+    2)卸载pd并安装pd14.1.3版本(断网安装)
+    3)cleanmymac清理系统垃圾
+    4)打开造成电脑卡死的pd对应的虚拟机,如win7x64,在虚拟机中清理垃圾(一般如果用了chromedriver第天会产生较多垃圾,可用360定时清理)
+    5)实在不行就重装虚拟机(可能是这个虚拟机的垃圾太多了,导致mac启动不了它,可尝试重新安装个系统如win7)
+
+417.注意:pywinauto有些python的版本不能安装,例如python34.python35是可以安装的.
+
+418.狂龙十八段v+
+    https://pan.baidu.com/s/1XrW2eOIwnE8qMIG4QqloEg  提取码: m3hm
+
+419.paralleles desktop win7分辨率设置方法:
+    1.安装paralleles tools(需重启)
+    2.选择缩放模式(配置->硬件->图形->最适用于retain显示器)
+    3.全屏自动缩放至适合屏幕大小(配置->选项->全屏->高级设置->缩放至适合屏幕大小->自动)
+
+420.python使用国内源安装模块
+    pip3 install packegname -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+421.app逆向分析签名算法步骤:
+    1.越狱手机通过appstore下载该app
+    2.frida脱壳http://www.gandalf.site/2019/05/iosapp.html
+    3.将脱壳后的文件用ida分析
+
 ```
