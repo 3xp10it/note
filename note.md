@@ -3901,4 +3901,55 @@ $_POST[b]="",是个空字符串,isset返回true
     2.frida脱壳http://www.gandalf.site/2019/05/iosapp.html
     3.将脱壳后的文件用ida分析
 
+422.chromedriver爬虫的坑,使用page_source无法获取通过js生成的源码,需要使用
+    html = driver.find_element_by_tag_name('html').get_attribute('innerHTML')
+    或参考这里:https://www.thinbug.com/q/22739514
+
+423.es的fielddata用法
+    https://www.jianshu.com/p/49260d54beaf
+    https://www.ctolib.com/docs/sfile/ELKstack-guide-cn/elasticsearch/performance/fielddata.html
+    http://doc.codingdict.com/elasticsearch/323/
+    https://cloud.tencent.com/developer/article/1166441
+    https://www.shuzhiduo.com/A/WpdK3jNAdV/
+
+424.es完全匹配
+    https://my.oschina.net/LucasZhu/blog/1543956
+    重要,使用ngram(我认为题材关键字的ngram的分词长度范围设置为1-5比较合理)并使用phrase查询:
+        https://blog.csdn.net/kexinmei/article/details/47979013
+    https://blog.csdn.net/liangxw1/article/details/79757224
+    https://zhuanlan.zhihu.com/p/27412238
+    http://doc.codingdict.com/elasticsearch/335/
+    https://blog.csdn.net/weixin_40341116/article/details/81842989
+    https://blog.csdn.net/qq_28988969/article/details/106770460?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.compare&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.compare
+    https://njucz.github.io/2017/12/20/elasticsearch%20ngram,edgengram%E7%AC%94%E8%AE%B0/
+    词频统计:
+        https://www.cnblogs.com/snake23/p/11310070.html
+
+    设置fielddata为true:
+    `PUT 192.168.1.2/my_index/_mapping`
+    {
+      "properties": {
+        "title": {  
+          "type":     "text",
+          "analyzer":"?",
+          "search_analyzer":"?",
+          "fielddata": true
+        }
+      }
+    }
+
+    对fielddata为true的字段进行词频统计
+    `POST 192.168.1.2/my_index/_search`
+    {
+       "size" : 0,  
+        "aggs" : {   
+            "news" : {   
+                "terms" : {   
+                  "field" : "title"
+                }  
+            }  
+        }
+    }
+
+
 ```
