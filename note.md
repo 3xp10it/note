@@ -3952,4 +3952,14 @@ $_POST[b]="",是个空字符串,isset返回true
     }
 
 
+425.macOS常见导致cpu发热原因
+    https://qastack.cn/apple/144474/mds-and-mds_stores-constantly-consuming-cpu
+    https://techstacker.com/backupd-helper/
+    https://www.howtogeek.com/320342/what-is-backupd-and-why-is-it-running-on-my-mac/
+    https://tclementdev.com/timemachineeditor/
+    https://laowangblog.com/fix-macos-mads-stores-cpu-high-usage.html
+    https://www.fireebok.com/resource/how-to-turn-off-and-turn-on-spotlight-on-macos-mojave.html
+
+426.盲点套利
+    抢权配售https://zhuanlan.zhihu.com/p/101938683
 ```
