@@ -3078,7 +3078,8 @@ $_POST[b]="",是个空字符串,isset返回true
 247.爬虫防ban
     https://scrapinghub.com/crawlera[收费]
     https://github.com/qiyeboy/IPProxyPool[免费]
-
+    chromedriver防ban,移除window.navigator.webdriver
+        https://juejin.im/post/6844904095749242887
 248.后台执行命令
     http://blog.csdn.net/qq1124794084/article/details/50546507
 
@@ -3962,4 +3963,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 426.盲点套利
     抢权配售https://zhuanlan.zhihu.com/p/101938683
+
+427.看懂龙头股
+    链接: https://pan.baidu.com/s/1X4DUMlwq2JAi-c13BM847w 提取码: ifgy
 ```
