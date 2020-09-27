@@ -3966,4 +3966,8 @@ $_POST[b]="",是个空字符串,isset返回true
 
 427.看懂龙头股
     链接: https://pan.baidu.com/s/1X4DUMlwq2JAi-c13BM847w 提取码: ifgy
+
+428.javascript中dom操作如append等不能即时渲染
+    https://blog.csdn.net/ALaDingPro/article/details/88689929
+    https://blog.csdn.net/wind__snow/article/details/9080553
 ```
