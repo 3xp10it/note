@@ -3973,4 +3973,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 429.女王四期
     https://pan.baidu.com/s/1WYMFWTozkMxFQjB7xObI5Q    qj5e
+
+430.同花顺的坑
+    1)在自定义函数后调用很有可能会出错,最好不要自定义函数,否则会出现完全不知道哪里出错了的坑.
 ```
