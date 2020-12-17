@@ -61,6 +61,10 @@
     sed -i "s#http://3xp10it.cc#http://3xp10it.cc#g" `grep xinghuacai -rl .`
     -i是直接修改,而不在屏幕输出的选项
 
+  macOS下要这样:
+  sed -i "" "s/str1/str2/g"
+  ls *.js | xargs sed -i "" "s/str1/str2/g"
+
 10.加了vpn就相当于vpn强制给通信链路加了个限制:所有数据只能通过vpn进出.
 (正常联网的功能只是给系统加了连接其他地址的各种道路,必须先保证可以联网,然后可以保证加了vpn后的效果会是这样>>
     先通过一些数据链路连接到vpn,然后vpn作为代理再访问互联网.
