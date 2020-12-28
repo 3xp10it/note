@@ -3806,8 +3806,11 @@ $_POST[b]="",是个空字符串,isset返回true
     7)正常使用帐号登录
     其他:如果发现与某个指数有关的指标显示不正常,可手动访问这个指数再回到个股看看是不是恢复了.如399006(创业板指)经常出问题.
 
-404.macOS查看ios的所有应用的bundleid
-    ios-deploy --id [udid] --list_bundle_id
+404.ios/macOS查看bundleid
+    ios
+        ios-deploy --id [udid] --list_bundle_id
+    macOS
+        osascript -e 'id of app "Finder"'
 
 405.appium自动化测试ios
     https://gysxl.github.io/2018/05/02/%E4%BD%BF%E7%94%A8appium%E8%BF%9B%E8%A1%8CiOS%E7%9C%9F%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E4%B9%8B%E7%8E%AF%E5%A2%83%E5%85%A5%E9%97%A8/
