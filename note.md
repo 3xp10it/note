@@ -3988,6 +3988,8 @@ $_POST[b]="",是个空字符串,isset返回true
     http://www.ahl8.com/guanganwangluotuiguang/20190924/2260.html
 
 432.github push出现timeout等问题解决
+    原理:GFW把github墙了,git push使用的是ssh协议,需要为它设置socks代理(http代理不行)
+    解决方法:
     设置socks代理
     https://blog.csdn.net/Changer_sun/article/details/80838080
 ```
