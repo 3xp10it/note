@@ -3986,4 +3986,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 431.微博图片防盗链解决方法
     http://www.ahl8.com/guanganwangluotuiguang/20190924/2260.html
+
+432.github timeout等问题解决
+    https://juejin.cn/post/6844904193170341896
 ```
