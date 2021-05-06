@@ -3992,4 +3992,10 @@ $_POST[b]="",是个空字符串,isset返回true
     解决方法:
     设置socks代理
     https://blog.csdn.net/Changer_sun/article/details/80838080
+
+433.彻底关闭macOS timemachine
+    https://apple.stackexchange.com/questions/328029/how-to-completely-disable-backupd-helper
+
+434.macOS降温
+    https://www.cnblogs.com/gongchixin/articles/7550496.html
 ```
