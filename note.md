@@ -3998,4 +3998,13 @@ $_POST[b]="",是个空字符串,isset返回true
 
 434.macOS降温
     https://www.cnblogs.com/gongchixin/articles/7550496.html
+
+435.kms激活
+    google search:kms blog
+
+436.office 2019专业增强版激活
+    1.下载官方正版http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/zh-cn/ProPlus2019Retail.img
+    2.清除曾经系统可能设置过的kms，这个工具里有这个功能，使用这个工具需要关闭win10的实时杀毒功能
+    链接: https://pan.baidu.com/s/1JpVmlPOywNma2t_TmO0_9Q 提取码: ajq8
+    3.淘宝买个license，打开office后正常输入license
 ```
