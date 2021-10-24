@@ -4014,4 +4014,15 @@ $_POST[b]="",是个空字符串,isset返回true
 438.pdf ocr
     链接: https://pan.baidu.com/s/1KRaXTynLqp6uz6QzMLvSFg 提取码: f5cg
     1118-1170-2913-0887-6359-4118
+
+439.win10磁盘占用过大的文件
+    C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb
+
+440.python读内存地址中的内容
+    https://www.cnblogs.com/shine-lee/p/12286856.html
+
+    ipython
+    from sys import getsizeof 
+    from ctypes import string_at
+    string_at(id(i), getsizeof(i))
 ```
