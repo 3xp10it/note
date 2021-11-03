@@ -4025,4 +4025,6 @@ $_POST[b]="",是个空字符串,isset返回true
     from sys import getsizeof 
     from ctypes import string_at
     string_at(id(i), getsizeof(i))
+
+441.python3中dict类型可以跨文件import,但list类型不可以,例如api.py中有个dict1和list1,a.py中有个from api import *,则运行a.py后可以获取到api.py中的dict1但不能获取到api.py中的list1的值
 ```
