@@ -4027,4 +4027,23 @@ $_POST[b]="",是个空字符串,isset返回true
     string_at(id(i), getsizeof(i))
 
 441.python3中dict类型可以跨文件import,但list类型不可以,例如api.py中有个dict1和list1,a.py中有个from api import *,则运行a.py后可以获取到api.py中的dict1但不能获取到api.py中的list1的值
+
+442.python操作systreeview
+    app = pywinauto.Application().connect(path="D:\\同花顺软件\\同花顺\\xiadan.exe", timeout=10)
+    left_handle=app.top_window().window(control_id=129, class_name='SysTreeView32')
+    left_handle.wait('ready', 2)
+    #left_handle.get_item(['买入[F1]']).click()
+    left_handle.get_item(['新股申购','新股申购',]).click()
+
+443.dex脱壳
+    https://bbs.pediy.com/thread-258776.htm
+
+444.windows软件时间使用限制神器
+    run_as_date
+    https://nirsoft.net/utils/run_as_date.html
+
+445.android一次反编译多个dex的方法
+    dex2jar+jd-gui:每个dex得到一个jar,解压jar得到java代码文件,将所有dex得到的java代码文件打包到一个jar,再用jd-gui分析
+    jeb:将所有dex放同一个目录用zip得到一个zip文件,再用jeb分析
+    jadx:直接打开选择多个dex文件
 ```
