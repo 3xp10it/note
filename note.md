@@ -4046,4 +4046,13 @@ $_POST[b]="",是个空字符串,isset返回true
     dex2jar+jd-gui:每个dex得到一个jar,解压jar得到java代码文件,将所有dex得到的java代码文件打包到一个jar,再用jd-gui分析
     jeb:将所有dex放同一个目录用zip得到一个zip文件,再用jeb分析
     jadx:直接打开选择多个dex文件
+
+446.win7/win10 tts修复
+    https://static-alpha.wallstcn.com/xgb-static/tts-shot.html 
+
+447.javascript语音合成/tts
+    https://denzel.netlify.app/js/speech_in_js_synthesis.html
+
+448.python离线tts
+    https://pypi.org/project/pyttsx3/
 ```
