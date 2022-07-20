@@ -4059,4 +4059,12 @@ $_POST[b]="",是个空字符串,isset返回true
 449.命令行设置进程优先级
 	https://www.52zixue.com/dnjc/08/25/48909/
 	https://www.auslogics.com/en/articles/change-priority-of-win10-process-with-command-line/
+
+450.github命令行上传失败可通过设置代理尝试解决
+    git config --global http.proxy 'socks5://127.0.0.1:10886'
+    git config --global https.proxy 'socks5://127.0.0.1:10886'
+    取消代理命令:
+    git config --global --unset http.proxy
+    git config --global --unset https.proxy
+
 ```
