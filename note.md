@@ -4067,4 +4067,7 @@ $_POST[b]="",是个空字符串,isset返回true
     git config --global --unset http.proxy
     git config --global --unset https.proxy
 
+451.imac加内存条导致无法开机解决办法
+    eg.原先自带2个4G内存条,后多加2个8G的从网上购买的内存条后导致无法开机
+    解决办法:关机;先只安装1个4G和1个8G内存条,开机;关机;然后再加上1个4G和1个8G内存条,再开机.
 ```
