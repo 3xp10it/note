@@ -4076,4 +4076,9 @@ $_POST[b]="",是个空字符串,isset返回true
     2)websocket的连接断了之后需要ws.close()
     3)*nix系统通过ulimit -n 2048修改最大可打开句柄数
     4)修改代码减少进程使用的最大线程数量,例如将线程池的max_workers=10改为max_workers=5
+
+453.too many open files的bug解决方法:
+    https://stackoverflow.com/questions/6774724/why-python-has-limit-for-count-of-file-handles
+
+454.陆股通日买入前十指数是指前一个交易日北上资金净买入额前10的股票在今天的平均涨幅
 ```
