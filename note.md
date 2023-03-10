@@ -4083,6 +4083,8 @@ $_POST[b]="",是个空字符串,isset返回true
 454.陆股通日买入前十指数是指前一个交易日北上资金净买入额前10的股票在今天的平均涨幅
 
 455.twine上传pypi
+    首先要执行:python3 setup.py sdist bdist_wheel
+    然后再执行:
     twine upload dist/*
     或者
     twine upload dist/* --skip-existing
