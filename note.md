@@ -4091,4 +4091,9 @@ $_POST[b]="",是个空字符串,isset返回true
 
 456.windows11 C盘清理
     https://answers.microsoft.com/zh-hans/windows/forum/all/win11%E7%B3%BB%E7%BB%9Fc%E7%9B%98%E5%8D%A0/c4b811df-77a2-4094-9fcf-1089b4cb213c
+
+457.windows进程异常退出分析
+    https://developer.aliyun.com/article/765827
+    https://www.icoa.cn/a/968.html
+
 ```
