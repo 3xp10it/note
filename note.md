@@ -4095,5 +4095,13 @@ $_POST[b]="",是个空字符串,isset返回true
 457.windows进程异常退出分析
     https://developer.aliyun.com/article/765827
     https://www.icoa.cn/a/968.html
+    https://fresky.github.io/2014/06/20/using-gflags-to-catch-dump-for-the-disappeared-process/
+
+458.asyncio中await关键字的理解
+    在Python的asyncio库中,await关键字并不是释放CPU的操作.相反,当程序执行到await语句时,它会暂停当前协程的执行,并将控制权交给事件循环(event loop).事件循环会继续执行其他协程,直到有一个协程的await语句等待的异步操作完成后,事件循环会将控制权重新交给该协程,让它继续执行下一条语句.
+    在异步IO模型中,程序通常会涉及到多个协程的并发执行,这些协程会在不同的时间点上等待不同的异步操作完成.当一个协程执行到await语句时,它会暂停执行,并将异步操作的控制权交给事件循环.事件循环会继续执行其他协程,直到有一个协程的异步操作完成后,事件循环会将控制权重新交给该协程,让它继续执行下一条语句.这种方式可以避免程序在等待IO操作时阻塞,从而提高程序的并发性和性能.
+    总之,await关键字并不是释放CPU的操作,它是Python的asyncio库中的一个重要概念,用于等待异步操作的完成.在异步IO模型中,程序可以使用await关键字来暂停当前协程的执行,并将异步操作的控制权交给事件循环,从而实现协程的并发执行
+    异步函数(async def定义的函数)可以包含任意数量的await关键字,但并不是必须的.如果异步函数中没有涉及到任何异步操作,那么就不需要使用await关键字.
+    ps:await async_function中的await关键字可理解为:声明要调用异步函数(await关键字只能在被async def定义的异步函数的内部使用,不能在python脚本主线程中使用),而运行异步函数需要用asyncio.run(async_function()),运行多个异步函数可以用asyncio.gather(async_function1(),async_function2())
 
 ```
