@@ -4083,7 +4083,7 @@ $_POST[b]="",是个空字符串,isset返回true
 454.陆股通日买入前十指数是指前一个交易日北上资金净买入额前10的股票在今天的平均涨幅
 
 455.twine上传pypi
-    首先要执行:python3 setup.py sdist bdist_wheel
+    首先要执行(注意是python而不是python3):python setup.py sdist bdist_wheel
     然后再执行:
     twine upload dist/*
     或者
@@ -4102,6 +4102,11 @@ $_POST[b]="",是个空字符串,isset返回true
     在异步IO模型中,程序通常会涉及到多个协程的并发执行,这些协程会在不同的时间点上等待不同的异步操作完成.当一个协程执行到await语句时,它会暂停执行,并将异步操作的控制权交给事件循环.事件循环会继续执行其他协程,直到有一个协程的异步操作完成后,事件循环会将控制权重新交给该协程,让它继续执行下一条语句.这种方式可以避免程序在等待IO操作时阻塞,从而提高程序的并发性和性能.
     总之,await关键字并不是释放CPU的操作,它是Python的asyncio库中的一个重要概念,用于等待异步操作的完成.在异步IO模型中,程序可以使用await关键字来暂停当前协程的执行,并将异步操作的控制权交给事件循环,从而实现协程的并发执行
     异步函数(async def定义的函数)可以包含任意数量的await关键字,但并不是必须的.如果异步函数中没有涉及到任何异步操作,那么就不需要使用await关键字.
-    ps:await async_function中的await关键字可理解为:声明要调用异步函数(await关键字只能在被async def定义的异步函数的内部使用,不能在python脚本主线程中使用),而运行异步函数需要用asyncio.run(async_function()),运行多个异步函数可以用asyncio.gather(async_function1(),async_function2())
+    ps:await async_function中的await关键字可理解为:声明要调用异步函数(await关键字只能在被async def定义的异步函数的内部使用,不能在python脚本主线程中使用),而运行异步函数需要用asyncio.run(async_function()),运行多个异步函数可以用asyncio.run(asyncio.gather(async_function1(),async_function2()))
+
+459.python程序性能分析
+    tottime，指的是函数本身的运行时间，扣除了子函数的运行时间
+    cumtime，指的是函数的累计运行时间，包含了子函数的运行时间
+    https://zhuanlan.zhihu.com/p/58535923
 
 ```
