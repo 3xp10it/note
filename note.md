@@ -4103,10 +4103,17 @@ $_POST[b]="",是个空字符串,isset返回true
     总之,await关键字并不是释放CPU的操作,它是Python的asyncio库中的一个重要概念,用于等待异步操作的完成.在异步IO模型中,程序可以使用await关键字来暂停当前协程的执行,并将异步操作的控制权交给事件循环,从而实现协程的并发执行
     异步函数(async def定义的函数)可以包含任意数量的await关键字,但并不是必须的.如果异步函数中没有涉及到任何异步操作,那么就不需要使用await关键字.
     ps:await async_function中的await关键字可理解为:声明要调用异步函数(await关键字只能在被async def定义的异步函数的内部使用,不能在python脚本主线程中使用),而运行异步函数需要用asyncio.run(async_function()),运行多个异步函数可以用asyncio.run(asyncio.gather(async_function1(),async_function2()))
+    更多用法可参考:
+    https://ashooter.github.io/2018-11-19/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Python%E7%9A%84asyncio%E5%8D%8F%E7%A8%8B/
 
 459.python程序性能分析
-    tottime，指的是函数本身的运行时间，扣除了子函数的运行时间
-    cumtime，指的是函数的累计运行时间，包含了子函数的运行时间
+    tottime,指的是函数本身的运行时间,扣除了子函数的运行时间
+    cumtime,指的是函数的累计运行时间,包含了子函数的运行时间
     https://zhuanlan.zhihu.com/p/58535923
+    python -m cProfile -o out.prof script.py
+    snakeviz out.prof
+    注意,其中的snakeviz在mac上运行可能会出问题,在windows上运行正常
 
+460.github.io网站无法访问的问题 
+    http://beyoung.xyz/2020/04/25/2020-04-25-github-io%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E9%97%AE%E9%A2%98/
 ```
