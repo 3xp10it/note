@@ -4116,4 +4116,10 @@ $_POST[b]="",是个空字符串,isset返回true
 
 460.github.io网站无法访问的问题 
     http://beyoung.xyz/2020/04/25/2020-04-25-github-io%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E9%97%AE%E9%A2%98/
+
+461.win11打开文件夹很慢解决方法
+    https://blog.csdn.net/qq_42369541/article/details/130137752
+
+462.win11无法删除文件夹解决办法
+    https://oneinf.com/tech/yy/9620.html
 ```
