@@ -4148,5 +4148,7 @@ $_POST[b]="",是个空字符串,isset返回true
 470.elasticsearch(es)查询text类型的字段的值为空或不为空的语法(对空值的查询)
     https://zhuanlan.zhihu.com/p/615883093
 
-471.ios有时候设置了burpsuite的代理后如果出现要过20秒以上或者很久才能把代理请求发到burpsuite的情况,可能是由于在ios上设置了"开发者模式"导致,需要关闭该ios的开发者模式
+471.ios有时候设置了burpsuite的代理后如果出现要过20秒以上或者很久才能把代理请求发到burpsuite的情况,
+    可以重启一下无线路由器,一般可以解决
+    不行的话再尝试在ios中点击还原网络设置
 ```
