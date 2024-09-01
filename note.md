@@ -4148,7 +4148,16 @@ $_POST[b]="",是个空字符串,isset返回true
 470.elasticsearch(es)查询text类型的字段的值为空或不为空的语法(对空值的查询)
     https://zhuanlan.zhihu.com/p/615883093
 
-471.ios有时候设置了burpsuite的代理后如果出现要过20秒以上或者很久才能把代理请求发到burpsuite的情况,
+471.ios有时候设置了burpsuite的代理后如果出现要过20秒以上或者很久才能把代理请求发到burpsuite的情况(表现为ios设置burpsuite为代理后访问网络时,http流量可以正常到burpsuite,但https流量则要过20秒以上或很久才能到burpsuite),
     可以重启一下无线路由器,一般可以解决
+    也可以ios断开wifi后重新连接wifi试试
     不行的话再尝试在ios中点击还原网络设置
+    目前看这个最有用:参考这里解决https://portswigger.net/burp/documentation/desktop/mobile/troubleshooting
+
+472.win10鼠标卡顿解决办法 
+    https://blog.csdn.net/lihuiyun184291/article/details/130060475
+    del /s /q %temp%
+    cleanmgr.exe
+    del /s /q c:\windows\Temp
+    取消按ctrl后显示鼠标位置
 ```
