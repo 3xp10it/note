@@ -4160,4 +4160,7 @@ $_POST[b]="",是个空字符串,isset返回true
     cleanmgr.exe
     del /s /q c:\windows\Temp
     取消按ctrl后显示鼠标位置
+
+473.brew install加速
+    https://blog.csdn.net/tekin_cn/article/details/135289325
 ```
