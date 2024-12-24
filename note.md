@@ -4166,4 +4166,6 @@ $_POST[b]="",是个空字符串,isset返回true
 
 474.windows系统突然卡顿
     可能是chrome自动升级了,chrome自动升级后会默认开启使用图形加速功能,这个行为很可能导致在使用chrome的时候系统卡顿,可能通过chrome|设置|系统|关闭使用图形加速功能来解决
+    保险起风,将系统的Edge的这个设置也关闭
+    保险起风,将可控的electron的应用的这个设置也关闭:app.disableHardwareAcceleration()
 ```
