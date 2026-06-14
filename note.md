@@ -2620,6 +2620,7 @@ windows:
 
 342.windows原装纯净系统下载
     http://www.cnblogs.com/pwenlee/p/4180137.html
+    https://hellowindows.cn/#
 
 343.macbook pro安装win7虚拟机时选择的系统要是msdn原装系统,否则会报没有dvd驱动程序的错误
 
@@ -4203,5 +4204,23 @@ $_POST[b]="",是个空字符串,isset返回true
 483.如果遇到不规范的json,可以用demjson3(专门处理不规范的json对象)
     import demjson3
     demjson3.decode(s)
+
+484.LOF套利:
+    溢价套利(鸡肋,可以放弃,需要T+3才能卖出,不确定性不可控):需要上集思录查看净值溢价率,如果>=5%可以考虑做套利,方法是场内申购T+3后再场内卖出(需要溢价要持续3天才能成功,场内申购的LOF,份额到账可卖的时间是T+3,T日场内申购时成交价是按当晚公布的基金净值成交)(在证券账户里操作基金申购;申购成功后,份额登记在场外,需要做一个"转托管到场内"的动作,这之后才能在场内像卖股票一样卖出)
+    折价套利(不是所有lof都是T+0,有些lof是T+0):可以在例如折价-2%的时候买入T+0的lof,等待价值回归后T+0卖出,折价一般出现在开盘低开-5%以上的时候,这种时候一般对应着可能有利空导致有人有恐慌情绪导致lof出现折价
+
+485.电脑主机一般用了3年以上就可能出现cpu降频也就是电脑一运行多点程序就变卡(或用cpu压力测试就变卡降频)的问题(一般同时伴随风扇狂转,传感器显示cpu持续高温,cpu会因高温而降频),主要应该是散热的问题,风冷散热器的话就要重新在cpu上涂硅脂,水冷散热器的话要换一个新的水冷散热器(因为一般3年左右水冷液会变质导致堵塞导致散热异常,另外换水冷散热器的时候也会重新在cpu上涂硅脂)
+
+486.python安装simpleaudio失败解决办法
+    https://chat.deepseek.com/share/rbi696igxn8xxctew3
+
+487.win10允许网络磁盘映射中的文件双击直接打开bat文件
+    打开 Internet 选项,按 Win + R,输入 inetcpl.cpl,回车.切换到 安全 选项卡.选择 本地 Intranet → 点击 站点 → 再点 高级.在"将该网站添加到区域中"输入 服务器地址(比如 \\192.168.1.100 或 \\MyNAS),点击 添加,点击 关闭 → 确定.重启explorer.exe.
+
+488.chrome安装到d盘
+    https://www.cnblogs.com/jxldjsn/p/15675058.html
+
+489.windows运行一些exe时报错缺少dll
+    https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist?view=msvc-170
 ```
 
