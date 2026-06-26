@@ -4222,5 +4222,8 @@ $_POST[b]="",是个空字符串,isset返回true
 
 489.windows运行一些exe时报错缺少dll
     https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+490.可转债转股统计(可查看已经有多少债转股了)
+    https://www.szse.cn/market/bond/convertible/index.html
 ```
 
