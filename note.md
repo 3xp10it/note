@@ -4232,5 +4232,7 @@ $_POST[b]="",是个空字符串,isset返回true
 
 493.去水印
     https://www.photogrid.app/zh-cn/watermark-remover/
+
+494.在ida中直接搜索中文字符串搜索不到时,更大的能成功的概率是搜索对应的字符串的字节码,例如搜索"目标字符串".encode("gbk")的结果"c4 bf b1 ea d7 d6 b7 fb b4 ae",或者搜索"目标字符串".encode("utf8")的结果"e7 9b ae e6 a0 87 e5 ad 97 e7 ac a6 e4 b8 b2"
 ```
 
